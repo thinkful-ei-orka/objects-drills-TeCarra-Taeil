@@ -28,3 +28,10 @@
   for (let key in foobarObj) {
     console.log(key, foobarObj[key]);
   }
+  // 3. Arrays in objects
+  const food = {
+    meals: ['breakfast', 'second breakfast', 'elevenses', 'lunch', 'afternoon tea', 'dinner', 'supper']
+  }
+  let timeOfMeal = food.meals[3];
+  console.log(timeOfMeal);
+  
